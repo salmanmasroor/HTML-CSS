@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: teal;
+}
+.logo{
+      margin-left: 40px;
+}
+.logo a{
+    color: white;
+  
+    font-size: 18px;
+    font-weight: 600;
+}
+li{
+    display: inline-block;
+}
+
+li a{
+    padding: 15px;
+    margin-left: 20px;
+    color: white;
+}
+
+button{
+    margin-right: 20px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    width: 90px;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
